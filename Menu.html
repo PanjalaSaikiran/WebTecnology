@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Knight Bite</title>
+    <link rel="icon" href="./knigthLogo.jpg">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        #appbar{
+        width: 100%;
+            height: 120px;
+            background-color: rgba(0, 0, 0, 0.491);
+            position: sticky;
+            top: 0px;
+    }
+        #ho{
+        color: aliceblue;
+    }
+    #ho:hover{
+        color: blueviolet;
+    }
+    #logo{
+        padding-top: 34px;
+    }
+    #imge{
+        margin-left: 50px;
+    }
+    .content {
+    height: 460px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+   
+}
+
+.menu {
+    display: grid;
+    margin-top: 50px;
+    padding: 0 160px;
+    row-gap: 60px;
+    column-gap: 50px;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr)
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu-item:hover{
+    filter: brightness(70%);
+}
+
+.menu-item h1 {
+    color: #fff;
+    font-size: 40px;
+    font-family: nicotineregular;
+    margin: 0 0 15px
+}
+
+.menu-item img:last-of-type {
+    height: 30px;
+    width: 30px
+}
+.menu-item img:first-of-type {
+    height: 115px
+}
+#inbuilt{
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+#inbuilt1{
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+#inbuilt2{
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+#inbuilt3{
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+#inbuilt4{
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+#inbuilt5{
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+    <div style="height: 655px;width: 100%;background-image: url(./menu1.jpg);background-size: 100% 615px;background-repeat: no-repeat;filter: brightness(80%);">
+        <div id="appbar">
+            <div id="logo" style="height: 50px;width: 100%;">
+             <a href="webpage.html"><img id="imge" src="logo1234.jpg" style="height: 50px;width: 120px;background-color: aliceblue;"></a>
+             
+             <a href="webpage.html" style="font-size: 20px;text-decoration: none;margin-left: 590px;" id="ho">Home</a>
+
+             <a href="./About.html" style="font-size: 20px;text-decoration: none;margin-left: 40px;" id="ho">About</a>
+             <a href="Menu.html" style="font-size: 20px;text-decoration: none;margin-left: 40px;" id="ho">Menu</a>
+             <a href="Franchise.html" style="font-size: 20px;text-decoration: none;margin-left: 40px;" id="ho">Franchise</a>
+            </div>
+        </div>
+                <div class="content">
+                    <div style="height: 500px;width: 900px;margin-left: 200px;background-image: url(./desert.jpg.png);background-size: 300px 500px;background-repeat: no-repeat;border-radius: 20px;" id="inbuilt">
+                        <div style="height: 30px;width: 600px;position: sticky;background-color: #fff;margin-left: 300px;"> <button style="background: transparent;border: none;cursor: pointer;" id="close1">
+                            <i class="fa-solid fa-circle-xmark" style="font-size: 30px;color: black;margin-top: 5px;margin-left: 540px;"></i>
+                        </button> </div>
+                       <div style="height: 500px;width: 600px;margin-left: 300px;background-color: white;">
+                        <br>
+                             <h1 style="font-size: 70px;margin-left: 50px;">Desserts</h1>
+                             <h1 style="font-size: 45px;margin-left: 50px;font-weight: lighter;">Mousse</h1>
+                             <p style="font-size: 25px;margin-left: 60px;">Nutella Delight<br>
+                                Cotton Candy Pudding</p>
+                       </div>
+                    </div>
+                    <div style="height: 500px;width: 900px;margin-left: 200px;background-image: url(./menuburger.jpg);background-size: 300px 500px;background-repeat: no-repeat;border-radius: 20px;" id="inbuilt1">
+                        <div style="height: 30px;width: 600px;position: sticky;background-color: #fff;margin-left: 300px;"> <button style="background: transparent;border: none;cursor: pointer;" id="close">
+                            <i class="fa-solid fa-circle-xmark" style="font-size: 30px;color: black;margin-top: 5px;margin-left: 540px;"></i>
+                        </button> </div>
+                        <div style="height: 470px;width: 600px;margin-left: 300px;overflow-y: scroll;background: #fff;">
+                          
+                            <div><h1 style="margin-left: 70px;font-weight: bolder;font-size: 65px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Burgers</h1>
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 40px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Non-Veg Burgers</h1>
+                            <p style="margin-left: 100px; font-size: 20px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                Knight Chicken Burger<br><br>
+                                Fiery Chicken Burger<br><br>
+                                
+                                Double Patty Chicken Burger<br><br>
+                                Knight Zinger Chicken Burger<br><br>
+                                Double Patty Zinger Chicken Burger<br><br>
+                                Fiery Zinger Chicken Burger<br><br>
+                                
+                                Chicken Bullseye Burger<br><br>
+                                Pizza Burst Chicken Burger<br><br>
+                                Bullseye Egg Burger<br><br>
+                                Double Bullseye Burger<br><br>
+                                Chicken Patty Burger<br><br>
+                                Tandoori Chicken Burger<br><br>
+                                Double Patty Tandoori Chicken Burger<br><br>
+                                Bunless Chicken Burger<br><br>
+                                Peri Peri Bunless Chicken Burger (Spicy)<br><br>
+                                
+                                Mini Tandoori Chicken Burgers (4 Pieces)<br><br>
+                                Mini Zinger Chicken Burgers (4 Pieces)<br><br>
+                                Hot and Sweet Burger<br>
+                            </p>
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 40px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Veg Burgers</h1>
+                            <p style="margin-left: 100px; font-size: 20px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                Single Patty Burger Veg<br><br>
+                                Double Patty Burger Veg<br><br>
+                                Aaloo Tikki Burger<br><br>
+                                Veg Pizza Burst Burger<br><br>
+                                Watermelon Burger<br><br>
+                                Fiery Veg Burger<br><br>
+                            </p>
+                            </div>
+                        </div>
+                   </div>
+                     <div style="height: 500px;width: 900px;margin-left: 200px;background-image: url(./fries.jpg.png);background-size: 300px 500px;background-repeat: no-repeat;border-radius: 20px;" id="inbuilt2">
+                        <div style="height: 30px;width: 600px;position: sticky;background-color: #fff;margin-left: 300px;"> <button style="background: transparent;border: none;cursor: pointer;" id="close2">
+                            <i class="fa-solid fa-circle-xmark" style="font-size: 30px;color: black;margin-top: 5px;margin-left: 540px;"></i>
+                        </button> </div>
+                        <div style="height: 470px;width: 600px;margin-left: 300px;overflow-y: scroll;background-color: #fff;">
+                            
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 65px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                Fries/ Starters</h1>
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 40px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Starters/Fries</h1>
+                            <p style="margin-left: 100px; font-size: 20px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                    French Fries<br><br>
+                                    French Fries Peri Peri<br><br>
+                    
+                                    Knight Fried Chicken (2 Pcs)<br><br>
+                                    Knight Fried Chicken (4 Pcs)<br><br>
+                                    Knight Fried Chicken (6 Pcs)<br><br>
+                                    Chicken Pops<br><br>
+                                    Crispy Chicken Wings (6 Pieces)<br><br>
+                                    Peri Peri Chicken Wings (6 Pieces)<br><br>
+                    
+                                    Chicken 65<br><br>
+                                    Chicken Chilli<br><br>
+                                    Knight Paneer 65<br><br>
+                                    Knight Paneer Chilli<br><br>
+                                    Knight Paneer Manchurian<br><br>
+                                    Honey Chilli Chicken special<br><br>
+                                    Knight Fried Chicken (1 Pc)<br><br>
+                                    Grilled Chicken Wings (6 pieces)<br><br>
+                            </p>
+                        </div>
+                     </div>
+                     <div style="height: 500px;width: 900px;margin-left: 200px;background-image: url(./main.jpg.png);background-size: 300px 500px;background-repeat: no-repeat;border-radius: 20px;" id="inbuilt3">
+                        <div style="height: 30px;width: 600px;position: sticky;background-color: #fff;margin-left: 300px;"> <button style="background: transparent;border: none;cursor: pointer;" id="close3">
+                            <i class="fa-solid fa-circle-xmark" style="font-size: 30px;color: black;margin-top: 5px;margin-left: 540px;"></i>
+                        </button> </div>
+                        <div style="height: 470px;width: 600px;margin-left: 300px;background-color: #fff;overflow-y: scroll;">
+                            
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 65px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                Main Course</h1>
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 40px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Rice
+                            </h1>
+                            <p style="margin-left: 100px; font-size: 20px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                Knight Chicken Biryani<br><br>
+                                Chicken Rice Bowl<br><br>
+                                Veg Rice Bowl<br><br>
+                                Fiery Veg Rice Bowl<br><br>
+                                
+                                Fiery Chicken Rice Bowl<br><br>
+                                
+                                Chicken Butter Garlic Rice<br><br>
+                                Paneer Rice bowl<br><br>
+                                Knight Veg Biryani<br><br>
+                            </p>
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 40px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                Noodles
+                            </h1>
+                            <p style="margin-left: 100px; font-size: 20px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                    Knight Chicken Noodles<br><br>
+                                    Veg Noodles<br><br>
+                                    Fiery Veg Noodles<br><br>
+                    
+                                    Fiery Chicken Noodles<br><br>
+                    
+                                    Knight Paneer Noodles<br><br>
+                            </p>
+                    
+                        </div>
+                     </div>
+                     <div style="height: 500px;width: 900px;margin-left: 200px;background-image: url(./drinks.jpg.png);background-size: 300px 500px;background-repeat: no-repeat;border-radius: 20px;" id="inbuilt4">
+                        <div style="height: 30px;width: 600px;position: sticky;background-color: #fff;margin-left: 300px;"> <button style="background: transparent;border: none;cursor: pointer;" id="close4">
+                            <i class="fa-solid fa-circle-xmark" style="font-size: 30px;color: black;margin-top: 5px;margin-left: 540px;"></i>
+                        </button> </div>
+                        <div style="height: 470px;width: 600px;margin-left: 300px;background-color: #fff;overflow-y: scroll;">
+                            
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 65px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                Drinks</h1>
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 40px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Milkshakes
+                    
+                            </h1>
+                            <p style="margin-left: 100px; font-size: 20px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                Oreo Shake<br><Br>
+                                Nutella Shake<br><Br>
+                                Strawberry Shake<br><Br>
+                                Cafe Mocha<br><Br>
+                                Banana Smoothie<br><Br>
+                                Cotton Candy Milkshake<br><Br>
+                            </p>
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 40px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                Coolers
+                            </h1>
+                            <p style="margin-left: 100px; font-size: 20px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                Watermelon Juice<br><Br>
+                                Mint Lime<br><Br>
+                                Iced Tea<br><Br>
+                            </p>
+                    
+                        </div>
+                     </div>
+                     <div style="height: 500px;width: 900px;margin-left: 200px;background-image: url(./wraps.jpg.png);background-size: 300px 500px;background-repeat: no-repeat;border-radius: 20px;" id="inbuilt5">
+                        <div style="height: 30px;width: 600px;position: sticky;background-color: #fff;margin-left: 300px;"> <button style="background: transparent;border: none;cursor: pointer;" id="close5">
+                            <i class="fa-solid fa-circle-xmark" style="font-size: 30px;color: black;margin-top: 5px;margin-left: 540px;"></i>
+                        </button> </div>
+                        <div style="height: 470px;width: 600px;margin-left: 300px;background-color: #fff;overflow-y: scroll;">
+                            
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 65px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                Wraps</h1>
+                            <h1 style="margin-left: 70px;font-weight: bolder;font-size: 40px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Wrap
+                    
+                            </h1>
+                            <p style="margin-left: 100px; font-size: 20px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                Fiery Chicken Wrap<br><br>
+                    
+                                Caesar Chicken Wrap<br><br>
+                                Zinger Chicken Wrap<br><br>
+                                Veg Patty Wrap<br><br>
+                                Tandoori Chicken Wrap<br><br>
+                                Chicken Supreme Wrap<br><br>
+                                test 1<br><br>
+                            </p>
+                            
+                    
+                        </div>
+                     </div>
+                    <div class="menu">
+                        <button style="background: transparent;border: none;cursor: pointer;" id="clickme1">
+                    <div class="menu-item">
+                       <img src="burger-icon.jpg"  style="width: 100px;"/>
+                        <h1>Burgers</h1>
+                       
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 10H18V18H10V22H18V30H22V22H30V18H22V10Z" fill="white"/>
+                        <path d="M20 0C8.972 0 0 8.972 0 20C0 31.028 8.972 40 20 40C31.028 40 40 31.028 40 20C40 8.972 31.028 0 20 0ZM20 36C11.178 36 4 28.822 4 20C4 11.178 11.178 4 20 4C28.822 4 36 11.178 36 20C36 28.822 28.822 36 20 36Z" fill="white"/>
+                        </svg>
+                        
+
+                    </div></button> 
+                    <button style="background: transparent;border: none;cursor: pointer;" id="clickme2">
+                    <div class="menu-item">
+                        
+                        <img src="starters-icon.jpg" style="width: 100px;"/>
+                        <h1>Fries/Starters</h1>
+                    
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 10H18V18H10V22H18V30H22V22H30V18H22V10Z" fill="white"/>
+                        <path d="M20 0C8.972 0 0 8.972 0 20C0 31.028 8.972 40 20 40C31.028 40 40 31.028 40 20C40 8.972 31.028 0 20 0ZM20 36C11.178 36 4 28.822 4 20C4 11.178 11.178 4 20 4C28.822 4 36 11.178 36 20C36 28.822 28.822 36 20 36Z" fill="white"/>
+                        </svg>
+                        
+                        
+                    </div></button>
+                    <button style="background: transparent;border: none;cursor: pointer;" id="clickme3">
+                    <div class="menu-item">
+                        
+                        <img src="main-course-icon.jpg"  style="width: 100px;"/>
+                        <h1>Main Course</h1>
+                     
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 10H18V18H10V22H18V30H22V22H30V18H22V10Z" fill="white"/>
+                        <path d="M20 0C8.972 0 0 8.972 0 20C0 31.028 8.972 40 20 40C31.028 40 40 31.028 40 20C40 8.972 31.028 0 20 0ZM20 36C11.178 36 4 28.822 4 20C4 11.178 11.178 4 20 4C28.822 4 36 11.178 36 20C36 28.822 28.822 36 20 36Z" fill="white"/>
+                        </svg>
+                        
+                    </div></button>
+                    <button style="background: transparent;border: none;cursor: pointer;" id="clickme4">
+                    <div class="menu-item">
+                        
+                        <img src="drinks-icon.jpg"  style="width: 100px;"/>
+                        <h1>Drinks</h1>
+                    
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 10H18V18H10V22H18V30H22V22H30V18H22V10Z" fill="white"/>
+                        <path d="M20 0C8.972 0 0 8.972 0 20C0 31.028 8.972 40 20 40C31.028 40 40 31.028 40 20C40 8.972 31.028 0 20 0ZM20 36C11.178 36 4 28.822 4 20C4 11.178 11.178 4 20 4C28.822 4 36 11.178 36 20C36 28.822 28.822 36 20 36Z" fill="white"/>
+                        </svg>
+                        
+                    </div></button>
+                    <button style="background: transparent;border: none;cursor: pointer;" id="clickme5">
+                    <div class="menu-item">
+                       
+                       <img src="wrap-icon.jpg"  style="width: 100px;"/>
+                       <h1>Wraps</h1>
+                     
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 10H18V18H10V22H18V30H22V22H30V18H22V10Z" fill="white"/>
+                        <path d="M20 0C8.972 0 0 8.972 0 20C0 31.028 8.972 40 20 40C31.028 40 40 31.028 40 20C40 8.972 31.028 0 20 0ZM20 36C11.178 36 4 28.822 4 20C4 11.178 11.178 4 20 4C28.822 4 36 11.178 36 20C36 28.822 28.822 36 20 36Z" fill="white"/>
+                        </svg>
+                        
+                    </div></button>
+                    <button style="background: transparent;border: none;cursor: pointer;" id="clickme">
+                    <div class="menu-item">
+                        <img src="desserts-icon.jpg"  style="width: 100px;"/>
+                        <h1>Desserts</h1>
+                        
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 10H18V18H10V22H18V30H22V22H30V18H22V10Z" fill="white"/>
+                        <path d="M20 0C8.972 0 0 8.972 0 20C0 31.028 8.972 40 20 40C31.028 40 40 31.028 40 20C40 8.972 31.028 0 20 0ZM20 36C11.178 36 4 28.822 4 20C4 11.178 11.178 4 20 4C28.822 4 36 11.178 36 20C36 28.822 28.822 36 20 36Z" fill="white"/>
+                        </svg>
+                    </div></button>
+                    </div>
+                    
+                </div>
+                <br>
+        <div style="height: 55px;width: 100%;background-image: radial-gradient(purple,pink);">
+            <center><p style="color: white;padding-top: 15px;">Ⓒ Copyright 2023. Knight Bite Pvt. Ltd. All Rights Reserved</p></center></div>
+            </div> 
+    </div>
+    <script>
+          const btn=document.querySelector("#clickme");
+          const con=document.querySelector("#inbuilt");
+          btn.addEventListener("click",function () {
+            if (con.style.display === "block"){
+                con.style.display="none";
+            }
+            else {
+                con.style.display="block"; 
+            }
+          })
+    </script>
+
+
+    <script>
+        const btn2=document.querySelector("#close1");
+        const con2=document.querySelector("#inbuilt");
+        btn2.addEventListener("click",function () {
+          if (con2.style.display === "none"){
+              con2.style.display="block";
+          }
+          else {
+              con2.style.display="none";
+          }
+        })
+  </script>
+     <script>
+        const btn1=document.querySelector("#clickme1");
+        const con1=document.querySelector("#inbuilt1");
+        btn1.addEventListener("click",function () {
+          if (con1.style.display === "block"){
+              con1.style.display="none";
+          }
+          else {
+              con1.style.display="block";
+          }
+        })
+  </script>
+  <script>
+    const btnclose=document.querySelector("#close");
+        const conclose=document.querySelector("#inbuilt1");
+        btnclose.addEventListener("click",function () {
+            if (conclose.style.display==="none"){
+                conclose.style.display="block";
+            }
+            else {
+                conclose.style.display="none";
+            }
+            
+        })
+  </script>
+
+
+<script>
+    const btn12=document.querySelector("#clickme2");
+    const con12=document.querySelector("#inbuilt2");
+    btn12.addEventListener("click",function () {
+      if (con12.style.display === "block"){
+          con12.style.display="none";
+      }
+      else {
+          con12.style.display="block";
+      }
+    })
+</script>
+<script>
+const btnclose1=document.querySelector("#close2");
+    const conclose1=document.querySelector("#inbuilt2");
+    btnclose1.addEventListener("click",function () {
+        if (conclose1.style.display==="none"){
+            conclose1.style.display="block";
+        }
+        else {
+            conclose1.style.display="none";
+        }
+        
+    })
+</script>
+
+
+
+<script>
+    const btn13=document.querySelector("#clickme3");
+    const con13=document.querySelector("#inbuilt3");
+    btn13.addEventListener("click",function () {
+      if (con13.style.display === "block"){
+          con13.style.display="none";
+      }
+      else {
+          con13.style.display="block";
+      }
+    })
+</script>
+<script>
+const btnclose13=document.querySelector("#close3");
+    const conclose13=document.querySelector("#inbuilt3");
+    btnclose13.addEventListener("click",function () {
+        if (conclose13.style.display==="none"){
+            conclose13.style.display="block";
+        }
+        else {
+            conclose13.style.display="none";
+        }
+        
+    })
+</script>
+
+<script>
+    const btn14=document.querySelector("#clickme4");
+    const con14=document.querySelector("#inbuilt4");
+    btn14.addEventListener("click",function () {
+      if (con13.style.display === "block"){
+          con13.style.display="none";
+      }
+      else {
+          con13.style.display="block";
+      }
+    })
+</script>
+<script>
+const btnclose14=document.querySelector("#close4");
+    const conclose14=document.querySelector("#inbuilt4");
+    btnclose14.addEventListener("click",function () {
+        if (conclose13.style.display==="none"){
+            conclose13.style.display="block";
+        }
+        else {
+            conclose13.style.display="none";
+        }
+        
+    })
+</script>
+
+
+<script>
+    const btn15=document.querySelector("#clickme5");
+    const con15=document.querySelector("#inbuilt5");
+    btn15.addEventListener("click",function () {
+      if (con15.style.display === "block"){
+          con15.style.display="none";
+      }
+      else {
+          con15.style.display="block";
+      }
+    })
+</script>
+<script>
+const btnclose15=document.querySelector("#close5");
+    const conclose15=document.querySelector("#inbuilt5");
+    btnclose15.addEventListener("click",function () {
+        if (conclose15.style.display==="none"){
+            conclose15.style.display="block";
+        }
+        else {
+            conclose15.style.display="none";
+        }
+        
+    })
+</script>
+
+
+
+</body>
+</html>
